@@ -1,26 +1,4 @@
 #!/bin/sh
-
-# check python version 
-pyVer="X.X"
-
-if [ -f "/usr/bin/python2.7" ]
-then
-    pyVer="2.7"
-elif [ -f "/usr/bin/python2.6" ]
-then
-    pyVer="2.6"
-else
-    tmp=`python -c "import sys;t='{v[0]}.{v[1]}'.format(v=list(sys.version_info[:2]));sys.stdout.write(t)";`
-    if [ $? -eq 0 ]
-    then
-        pyVer=$tmp
-    fi
-fi
-
-echo "Detected python version: "$pyVer
-
-set -e
-
 # remove old version
 opkg remove enigma2-plugin-extensions-livefootball
 cd /tmp 
