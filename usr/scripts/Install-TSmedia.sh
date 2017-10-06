@@ -23,16 +23,10 @@ opkg install python-difflib
 sync
 
 echo "#####################################################"
-
-echo "#          TSmedia INSTALLED SUCCESSFULLY         #"
-
+echo "#           Support @vuplus-images.co.uk            #"
 echo "#####################################################"
-
 echo "#             PLEASE RESTART YOUR STB               #"
-
 echo "#####################################################"
-
-echo "#  restart enigma by typing killall -9 enigma2   #"
 
 
 

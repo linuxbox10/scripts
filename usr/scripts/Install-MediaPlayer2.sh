@@ -1,12 +1,11 @@
 #!/bin/sh
 # remove old version
-opkg remove enigma2-plugin-extensions-livefootball
 cd /tmp 
 
-wget "http://tunisia-dreambox.info/LiveFootBall/software_official/enigma2-plugin-extensions-livefootball_7.1_all.ipk"
+wget "http://dl.bintray.com/mx3l/generic/enigma2-plugin-extensions-mediaplayer2_0.61_20150909_all.ipk"
 opkg update
-opkg install -force-overwrite enigma2-plugin-extensions-livefootball_7.1_all.ipk
-rm "enigma2-plugin-extensions-livefootball_7.1_all.ipk"
+opkg install -force-overwrite enigma2-plugin-extensions-mediaplayer2_0.61_20150909_all.ipk
+rm "enigma2-plugin-extensions-mediaplayer2_0.61_20150909_all.ipk"
 
 set +e
 

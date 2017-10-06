@@ -75,14 +75,9 @@ set +e
 sync
 
 echo "#####################################################"
-
-echo "#          TSpanel INSTALLED SUCCESSFULLY         #"
-
+echo "#           Support @vuplus-images.co.uk            #"
 echo "#####################################################"
-
-echo "#             PLEASE RESTART YOUR STB          #"
-echo "#       Restart enigma by typing killall -9 enigma2   #"
-
+echo "#             PLEASE RESTART YOUR STB               #"
 echo "#####################################################"
 
 
